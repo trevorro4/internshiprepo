@@ -4,9 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bootstrap example</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .menu-item img {
+            width: 100%;
+            height: auto;
+            padding: 15px; /* Add padding around images */
+        }
+        .color-accent {
+            background-color: #f8f9fa; /* Light gray background color */
+            border: 1px solid #ced4da; /* Light gray border */
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>this is bootstrap</h1>
-    
+    <div class="container">
+        <h1 class="text-center my-4">Menu</h1>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="/frontend/assets/images/Default_meat_grill_yummy_with_salad_0.jpg" alt="Item 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Item 1</h5>
+                        <p class="card-text">Item 1 Description</p>
+                        <p class="card-text"><strong>Price: ugx 10.00</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="/frontend/assets/images/Default_chicken_grill_yummy_with_salad_2.jpg" alt="Item 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Item 2</h5>
+                        <p class="card-text">Item 2 Description</p>
+                        <p class="card-text"><strong>Price: ugx 12.00</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="/frontend/assets/images/Default_chicken_grill_yummy_with_salad_2.jpg" alt="Item 3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Item 3</h5>
+                        <p class="card-text">Item 3 Description</p>
+                        <p class="card-text"><strong>Price: ugx 15.00</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row color-accent">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="/frontend/assets/images/Default_chicken_grill_yummy_with_salad_2.jpg" alt="Item 4">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Item 4</h5>
+                        <p class="card-text">Item 4 Description</p>
+                        <p class="card-text"><strong>Price: ugx11.00</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="/frontend/assets/images/Default_meat_grill_yummy_with_salad_2.jpg" alt="Item 5">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Item 5</h5>
+                        <p class="card-text">Item 5 Description</p>
+                        <p class="card-text"><strong>Price: ugx 13.00</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="/frontend/assets/images/Default_chicken_grill_yummy_with_salad_3.jpg" alt="Item 6">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Item 6</h5>
+                        <p class="card-text">Item 6 Description</p>
+                        <p class="card-text"><strong>Price: ugx 14.00</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
